@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    /* font-family: 'Nunito', sans-serif;
+    font-weight: 400; */
+}
+
+.screen{
+    position: relative;
+    height: 100vh;   /* alternate height: 900px */
+    width: 100wh;    /* alternate width: 1600px */
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0 !important;
+}
+
+.dark-background{
+    background-color: rgb(70, 70, 70) !important;
+}
+
+.dark-light-background{
+    /* background-color: rgb(84, 84, 84); */
+    background-color: rgba(84, 84, 84, 0.2); /* transparent */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.visible{
+    height: 550px !important;
+    bottom: 90px !important;
+}
+
+.hovered{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.show{
+    display: relative !important;
+}
+
+.active-window{
+    background-color: #222831 !important;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.taskbar-item:hover {
+   background-color: #222831 !important;
+   
+}
+
+.work-img:hover{
+    padding: 1px !important;
+}
+
+.box {
+  flex: 0 0 calc(33.333% - 0.5rem);
+}
+
+.icon:hover{
+    background-color: #222831 !important;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    padding: 10px !important;
+}
+
+.bg-beige{
+    background-color: #DFD0B8 !important;
+}
+
+.bg-mocha{
+    background-color: #948979 !important;
+}
+
+.bg-charcoal{
+    background-color: #393E46 !important
+}
+
+.bg-midnight-gray{
+    background-color: #222831 !important;
+}
+
+.bg-midnight-gray-transparent{
+    background-color: rgba(34, 40, 49, 0.8)  !important;
+}
+
+
+.bg-muted-gray{
+    background-color: #37353E !important;
+}
+
+.border-beige{
+   border-color: #DFD0B8 !important;
+}
+
+.border-mocha{
+    border-color: #948979 !important;
+}
+
+.border-charcoal{
+    border-color: #393E46 !important
+}
+
+.border-midnight-gray{
+    border-color: #222831  !important;
+}
+
+.color-beige{
+    color: #DFD0B8 !important;
+}
+
+.color-mocha{
+    color: #948979 !important;
+}
+
+.color-charcoal{
+    color: #393E46 !important
+}
+
+.color-midnight-gray{
+    color: #222831 !important;
+}
+
+.color-white{
+    color: #fff !important;
+}
+
+.popup-window {
+  opacity: 0;
+  transform: scale(0.9) translateY(10px);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.popup-window.open {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+summary {
+  list-style: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+details summary {
+    cursor: pointer;
+    background-color: #222831 !important;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #948979;
+}
+
+.answer{
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #222831 !important;
+}
+
+details[open] summary {
+  color: #f5deb3; /* beige highlight */
+}
+
+
+
+
+
